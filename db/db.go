@@ -7,7 +7,7 @@ import (
 )
 
 func DBConnect() *sqlx.DB {
-	db, err := sqlx.Connect("postgres", "user=docker dbname=testdb sslmode=disable password=secret")
+	db, err := sqlx.Connect("postgres", "postgresql://docker:secret@db/testdb?sslmode=disable")
 	if err != nil {
 		log.Fatalln(err)
 		return nil

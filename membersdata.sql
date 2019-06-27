@@ -1,0 +1,4 @@
+INSERT INTO members (email, username, passhash, avatarurl, followerno, followingno, orgid) VALUES ('abe@acme.com', 'abesajak', 'abcde', '/avatars/abe.png', 12, 30, 1 );
+INSERT INTO members (email, username, passhash, avatarurl, followerno, followingno, orgid) VALUES ('ron@acme.com', 'ronan', 'abcde', '/avatars/ronan.png', 587, 4, 1 );
+INSERT INTO members (email, username, passhash, avatarurl, followerno, followingno, orgid) VALUES ('maggie@acme.com', 'maggie', 'abcde', '/avatars/maggie.png', 99, 2, 1 );
+INSERT INTO members (email, username, passhash, avatarurl, followerno, followingno, orgid) VALUES ('bob@xendit.com', 'bobby', 'abcde', '/avatars/bobby.png', 76, 55, 2 );
